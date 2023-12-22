@@ -7,8 +7,8 @@ const LobbyScreen = () => {
   const [user] = useAuthState(auth);
   const { videoId } = useParams();
   const myMeeting = async (element) => {
-    const appID = 1327908371;
-    const serverSecret = "d7e8eca72d777a63f5c32b9b1301b3d8";
+    const appID = YOUR APP ID;
+    const serverSecret = "YOUR SECRET KEY";
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
       serverSecret,
